@@ -1,0 +1,1 @@
+# blockerList.json for TrumpBlockr

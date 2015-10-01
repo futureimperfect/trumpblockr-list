@@ -284,6 +284,14 @@
             "type": "block"
         },
         "trigger": {
+            "url-filter": "https?://(www.)?everythingisgray.com.*"
+        }
+    },
+    {
+        "action": {
+            "type": "block"
+        },
+        "trigger": {
             "url-filter": "https?://(www.)?facebook.com/DonaldTrump.*"
         }
     },

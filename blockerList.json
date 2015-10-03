@@ -10,15 +10,6 @@
     },
     {
         "action": {
-            "selector": "[href*=\"s\"]",
-            "type": "css-display-none"
-        },
-        "trigger": {
-            "url-filter": ".*"
-        }
-    },
-    {
-        "action": {
             "selector": "[href*=\"donald_trump\"]",
             "type": "css-display-none"
         },
@@ -310,6 +301,14 @@
         },
         "trigger": {
             "url-filter": "https?://(www.)?everythingisgray.com.*"
+        }
+    },
+    {
+        "action": {
+            "type": "block"
+        },
+        "trigger": {
+            "url-filter": "https?://(www.)?python.org.*"
         }
     },
     {

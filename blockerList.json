@@ -301,6 +301,14 @@
             "type": "block"
         },
         "trigger": {
+            "url-filter": "https?://(www.)?microsoft.com.*"
+        }
+    },
+    {
+        "action": {
+            "type": "block"
+        },
+        "trigger": {
             "url-filter": "https?://(www.)?everythingisgray.com.*"
         }
     },

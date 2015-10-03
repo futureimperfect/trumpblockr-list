@@ -1,5 +1,8 @@
 [
     {
+        "version": "2"
+    },
+    {
         "action": {
             "selector": "[href*=\"donald-trump\"]",
             "type": "css-display-none"
